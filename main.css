@@ -1,0 +1,26 @@
+.cat-box {
+  text-align: center;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-around;
+}
+
+.refresh-cat {
+  margin: 30px auto;
+  border-radius: 2px;
+  border: none;
+  padding: 10px 20px;
+  background-color: hsl(39, 100%, 60%);
+  color: hsl(39, 100%, 100%);
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  transform: scale(1);
+  transition: .3s 0s transform;
+}
+
+.refresh-cat:hover {
+  transform: scale(1.07);
+}
